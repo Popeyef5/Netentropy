@@ -1,1 +1,1 @@
-import solver
+from solver import *
