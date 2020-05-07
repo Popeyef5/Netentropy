@@ -92,9 +92,3 @@ class Solver():
     def inform(self, *args):
         if self.verbose:
             print(*args)
-
-if __name__ == '__main__':
-    a = [5, 11, 6, 12]
-    b = [15, 19]
-    scenario = Solver(a, b, True)
-    scenario.solve()
