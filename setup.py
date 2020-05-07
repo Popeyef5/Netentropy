@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'netentropy',
   packages = ['netentropy'],   
-  version = '0.1.1',      
+  version = '0.1.2',      
   license='MIT',        
   description = 'Simple library for calculating information theoretic quantities in networks. Current version calculates efficiently the modified mutual information between two labelings of nodes into communities.',
   author = 'Gaston Maffei',                   
   author_email = 'gastonmaffei@gmail.com',
   url = 'https://github.com/Popeyef5/Netentropy',
-  download_url = 'https://github.com/Popeyef5/Netentropy/archive/v_01_1.tar.gz',
+  download_url = 'https://github.com/Popeyef5/Netentropy/archive/v_01_2.tar.gz',
   keywords = ['networks', 'entropy', 'information'],
   install_requires=[
           'ortools',
